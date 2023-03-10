@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.toDoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("./image/lavanda.jpg");
+  background-size: cover;
+}
+
+.blurContainer{
+height: 80vh;
+width: 70vw;
+position: relative;
+background: rgba( 229, 157, 229, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 7px );
+-webkit-backdrop-filter: blur( 7px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-radius: 30px;
+background-size: contain;
+}
+
+header h1{
+  color: white;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+.title{
+  display: flex;
+  top: 10px;
+}
+
+.inputTarefas{
+margin-top: 30px;
+}
+
+.inputTarefas input{
+  border-radius: 15px;
+  margin: 0 12px;
+  width: 27vw;
+  height: 5vh;
+  border: 2px solid rgba( 255, 255, 255, 0.18 ) ;
+}
+
+.buttonAdd{
+  width: 5vw;
+  height: 5vh;
+  border-radius: 3px;
+  border: none;
+  background-color: #72bf6a;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.listaTarefas{
+  margin-top: 40px;
+}
+
+.listaTarefas li{
+  list-style: none;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.buttonRemove{
+  width: 44px;
+  height: 35px;
+  margin: 0 12px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #ae0009;
+  color: white;
+  font-weight: bold;
+  border-radius: 100px;
+  border: 0px solid #444;
+  border-width: 0px 0px 0px 0px;
+  padding: 10px 13px 10px 13px;
+}
